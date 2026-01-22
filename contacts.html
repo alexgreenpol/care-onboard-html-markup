@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" type="image/png" href="./images/favicon.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <title>Контакти — Care Onboard</title>
+  </head>
+  <body>
+    <header class="site-header dark">
+      <nav class="site-nav">
+        <div class="site-nav__col site-nav__col--left">
+          <a href="/" class="logo">
+            <img src="./images/logo.svg" alt="" />
+          </a>
+        </div>
+        <div class="site-nav__col site-nav__col--center">
+          <ul class="site-nav__menu">
+            <li><a href="./index.html">Головна</a></li>
+            <li><a href="./about.html">Про нас</a></li>
+            <li><a href="./services/index.html">Послуги</a></li>
+            <li><a href="./contacts.html">Контакти</a></li>
+          </ul>
+        </div>
+        <div class="site-nav__col site-nav__col--right">
+          <a class="btn btn--solid" href="./contacts.html">
+            Записатись на прийом
+          </a>
+          <button class="burger" aria-label="Відкрити меню">
+            <span></span>
+          </button>
+        </div>
+      </nav>
+      <div class="mobile-menu">
+        <ul>
+          <li><a href="./index.html">Головна</a></li>
+          <li><a href="./about.html">Про нас</a></li>
+          <li><a href="./services/index.html">Послуги</a></li>
+          <li><a href="./contacts.html">Контакти</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="contacts-page">
+      <section id="breadcrumbs" class="breadcrumbs dark">
+        <div class="container">
+          <h1>Контакти</h1>
+          <p>
+            Ми завжди раді бачити вас у нашій клініці або спілкуватися онлайн.
+            Зв’яжіться з нами будь-яким зручним способом — ми відповімо швидко
+            та з душею.
+          </p>
+        </div>
+      </section>
+
+      <section id="contacts" class="contacts">
+        <div class="container">
+          <div class="contacts__grid">
+            <div class="contacts__info">
+              <h2>Як нас знайти</h2>
+
+              <div class="contacts__item">
+                <strong>Адреса:</strong>
+                <p>
+                  м. Івано-Франківськ, вул. Галицька, 45 (вхід з двору, окремий
+                  ліфт)
+                </p>
+              </div>
+
+              <div class="contacts__item">
+                <strong>Графік роботи:</strong>
+                <p>Пн–Нд: 08:00 – 20:00<br />Без вихідних та святкових днів</p>
+              </div>
+
+              <div class="contacts__item">
+                <strong>Телефони:</strong>
+                <p>
+                  <a href="tel:+380342777777">(0342) 77-77-77</a><br />
+                  <a href="tel:+380676777777">(067) 67-77-777</a>
+                  (Viber/Telegram/WhatsApp)
+                </p>
+              </div>
+
+              <div class="contacts__item">
+                <strong>Email:</strong>
+                <p>
+                  <a href="mailto:info@careonboard.ua">info@careonboard.ua</a>
+                </p>
+              </div>
+
+              <div class="contacts__item">
+                <strong>Месенджери:</strong>
+                <p>
+                  <a href="https://t.me/careonboard" target="_blank"
+                    >Telegram</a
+                  >
+                  •
+                  <a href="viber://chat?number=+380676777777" target="_blank"
+                    >Viber</a
+                  >
+                  •
+                  <a href="https://wa.me/380676777777" target="_blank"
+                    >WhatsApp</a
+                  >
+                </p>
+              </div>
+
+              <div class="contacts__item">
+                <strong>Соціальні мережі:</strong>
+                <p>
+                  <a href="#">Instagram</a> • <a href="#">Facebook</a> •
+                  <a href="#">YouTube</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="map-container">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2621.4925522380167!2d24.709647399999998!3d48.9250596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4730c112fc8099a7%3A0x930778fa97f2e0b2!2z0YPQuy4g0JPQsNC70LjRhtC60LDRjywgNDUsINCY0LLQsNC90L4t0KTRgNCw0L3QutC-0LLRgdC6LCDQmNCy0LDQvdC-LdCk0YDQsNC90LrQvtCy0YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsIDc2MDAw!5e0!3m2!1sru!2sua!4v1769077617321!5m2!1sru!2sua"
+                width="100%"
+                height="100%"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <h2>Напишіть нам</h2>
+
+          <form class="contacts__form" action="#" method="POST">
+            <div class="form-group">
+              <label for="name">Ваше ім’я</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Олександр"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Телефон</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="+380 (XX) XXX-XX-XX"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email (необов’язково)</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="example@email.com"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Повідомлення</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Напишіть, що вас турбує або який фахівець потрібен..."
+                required
+              ></textarea>
+            </div>
+
+            <div class="form-submit">
+              <button type="submit" class="btn btn--solid btn--large">
+                Надіслати заявку
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer__inner footer__inner--centered">
+          <div class="footer__brand">
+            <a href="/" class="logo logo--large">
+              <img src="./images/logo.svg" alt="" />
+            </a>
+            <p class="footer__slogan">
+              Клініка, де турбота відчувається в кожній деталі
+            </p>
+          </div>
+        </div>
+        <div class="footer__copyright">
+          <p>© 2025–2026 Care Onboard. Клініка сучасної медицини.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
